@@ -1,0 +1,19 @@
+
+
+  .container { 
+    height: 350px;
+    position: relative;
+    border: 1px solid gray; 
+  }
+  
+  .center {
+    margin:6px;
+    position: absolute;
+    left: 1%;
+    top: 20%;
+    
+  }
+  .shift{
+
+    text-align: center;
+  }

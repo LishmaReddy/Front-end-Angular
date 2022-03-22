@@ -50,6 +50,7 @@ export class CarPriCalComponent implements OnInit {
       this.NCB = this.ODP * 0.20;
       this.ODprimimum = this.ODP - this.NCB;
       alert("OD Primimum:" +this.ODprimimum);
+      
       this.netprimimum = this.ODP + this.PAccidentCover + this.liabilityPaid + this.TPCover;
       
       this.total_primimum= this.netprimimum * 0.18 + this.netprimimum;
